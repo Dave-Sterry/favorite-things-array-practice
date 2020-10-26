@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Template Page</title>
+  <title>What are your Favorite things</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <script src="js/jquery-3.5.1.js"></script>
@@ -11,7 +11,25 @@
 </head>
 <body>
   <div class="container">
-    
+    <h1>Fill in the blanks with your 4 favorite things!</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="favorite-food">Favorite food</label>
+          <input id="favorite-food" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="favorite-band">Favorite band</label>
+          <input id="favorite-band" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="favorite-animal">Favorite animal</label>
+          <input id="favorite-animal" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add my answers to the list!</button>
+      </form>
+    </div>
   </div>
 </body>
 </html>
